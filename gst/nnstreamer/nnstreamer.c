@@ -107,6 +107,10 @@ gst_nnstreamer_init (GstPlugin * plugin)
 #define PACKAGE "nnstreamer"
 #endif
 
+#ifndef VERSION
+#define VERSION "0.1.3"
+#endif
+
 GST_PLUGIN_DEFINE (GST_VERSION_MAJOR,
     GST_VERSION_MINOR,
     nnstreamer,
